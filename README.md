@@ -1,6 +1,6 @@
-# Lambda Days 2015
+# Dutch PHP Conference 2015
 
-Presentation for Lambda Days 2015
+Presentation for Dutch PHP Conference 2015
 
 Development
 -----------
