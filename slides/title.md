@@ -1,2 +1,2 @@
 # Ada Lovelace
-## first functional programmer
+## The First Programmer
