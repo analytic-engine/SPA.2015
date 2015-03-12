@@ -89,7 +89,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:analytic-engine/lambda-days.2015.git'
+                    remote: 'git@github.com:analytic-engine/DPC.2015.git'
                     branch: 'gh-pages'
 
 
