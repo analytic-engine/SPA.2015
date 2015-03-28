@@ -31,7 +31,7 @@
         },
         'a-number': function(id){
             var container = document.getElementById(id);
-            new numbers.RegularView(model, container);
+            new numbers.EditableView(model, container);
         },
         'a-representation': function(id){
             var container = document.getElementById(id);
