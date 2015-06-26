@@ -168,6 +168,12 @@
         }
     },
     {
+        "filename": "variable-card-example.md",
+        "attr": {
+            "data-background": "image/analytic-engine.jpg"
+        }
+    },
+    {
         "filename": "operation-cards.md",
         "attr": {
             "data-background": "image/analytic-engine.jpg"
