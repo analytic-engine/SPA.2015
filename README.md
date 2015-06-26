@@ -1,6 +1,6 @@
-# Dutch PHP Conference 2015
+# SPA 2015 
 
-Presentation for Dutch PHP Conference 2015
+Presentation accompanying SPA2015 session Follow in Ada Lovelace's Footsteps.
 
 Development
 -----------
