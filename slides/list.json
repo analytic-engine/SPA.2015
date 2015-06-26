@@ -186,6 +186,11 @@
         }
     },
     {
+        "attr": {
+            "data-background": "image/analytic-engine.jpg"
+        }
+    },
+    {
         "filename": "program.md",
         "attr": {
             "data-background": "image/analytic-engine.jpg"
