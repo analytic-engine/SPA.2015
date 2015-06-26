@@ -9,7 +9,7 @@
             new numbers.EditableView(model, container);
             new logarithm.LogTableView(model, document.getElementById(id), {
                 'dataTransformer': function(number){
-                    return [number.toFixed(2), Math.log(number).toFixed(4)];
+                    return [number.toFixed(2), Math.log10(number).toFixed(4)];
                 }
             });
         },
@@ -18,14 +18,15 @@
             var setter = function(){
                 var digits = Math.floor(Math.log10(model.n));
                 var target = model.n / Math.pow(10, digits);
-                return Math.pow(Math.E, target);
+                var result = Math.pow(10, target);
+                return result;
             };
             var logModel = new numbers.Model(setter());
             model.on('n', function(){ logModel.set(setter()); });
             new numbers.EditableView(model, container);
             new logarithm.LogTableView(logModel, document.getElementById(id), {
                 'dataTransformer': function(number){
-                    return [number.toFixed(2), Math.log(number).toFixed(4)];
+                    return [number.toFixed(2), Math.log10(number).toFixed(4)];
                 }
             });
         },
